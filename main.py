@@ -17,7 +17,7 @@ chrome_options.add_argument("webdriver.chrome.driver=[D:/ChromeDriver/chromedriv
 driver = webdriver.Chrome(options=chrome_options)
 driver.maximize_window()
 driver.delete_all_cookies()
-driver.get("https://surendra.reddy@pressganey.com:PGadmin@123@scan.doctor.com/2two5%20co-branded")
+driver.get("https://scan.doctor.com/2two5%20co-branded")
 print("Logged in to scan.doctor.com")
 
 wb = Workbook()
@@ -89,7 +89,7 @@ for link in ProviderList.links_to_open:
                 cell.font = Font(color="008000")  # Green
             else:
                 cell.font = Font(color="FF0000")  # Red
-wb.save("C:/Users/kumara3/OneDrive - PG Forsta/Desktop/Codes/listing.xlsx")
+wb.save("C:/Users/kumara/Desktop/Codes/listing.xlsx")
 wb.close()
 
 
