@@ -1,0 +1,1 @@
+This Python script automates the process of opening multiple websites simultaneously, authenticating with provided credentials, and verifying the proper operation of a scanning tool. Additionally, it automatically generates a daily check-up report in Excel format, ensuring consistent monitoring and verification.
